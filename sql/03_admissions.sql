@@ -1,3 +1,4 @@
+-- Inserted data for each patient's admission
 INSERT INTO admissions (
     patient_id,
     admission_type,

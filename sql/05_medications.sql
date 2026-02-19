@@ -1,3 +1,4 @@
+-- Inserted data for each patient's medications
 INSERT INTO medications (admission_id, num_medications)
 SELECT
     a.admission_id,

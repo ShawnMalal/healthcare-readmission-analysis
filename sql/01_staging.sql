@@ -1,3 +1,4 @@
+-- Created table for Patients
 CREATE TABLE patients (
     patient_id VARCHAR(50) PRIMARY KEY,
     age VARCHAR(20),
@@ -5,6 +6,7 @@ CREATE TABLE patients (
     race VARCHAR(50)
 );
 
+-- Created table for each patient's admissions
 CREATE TABLE admissions (
     admission_id SERIAL PRIMARY KEY,
     patient_id VARCHAR(50),
@@ -16,6 +18,7 @@ CREATE TABLE admissions (
         REFERENCES patients(patient_id)
 );
 
+-- Created table for each patient's diagnoses per admission
 CREATE TABLE diagnoses (
     admission_id INT,
     diagnosis_1 VARCHAR(20),
@@ -25,6 +28,7 @@ CREATE TABLE diagnoses (
         REFERENCES admissions(admission_id)
 );
 
+-- Created table for each patient's medications during admission
 CREATE TABLE medications (
     admission_id INT,
     num_medications INT,
@@ -32,6 +36,7 @@ CREATE TABLE medications (
         REFERENCES admissions(admission_id)
 );
 
+-- Created table with data from UCI hospital dataset
 CREATE TABLE staging_diabetes_raw (
     encounter_id BIGINT,
     patient_nbr BIGINT,

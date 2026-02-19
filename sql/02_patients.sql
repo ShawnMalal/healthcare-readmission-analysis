@@ -1,3 +1,4 @@
+-- Inserted data for each patient in the patient table
 INSERT INTO patients (patient_id, age, gender, race)
 SELECT DISTINCT 
 	patient_nbr::VARCHAR, 

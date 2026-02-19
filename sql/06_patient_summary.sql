@@ -1,3 +1,4 @@
+-- Created a new table through JOINS to summarize data from patients, admissions, diagnoses, and medications
 CREATE TABLE patient_summary AS
 SELECT 
     p.patient_id,

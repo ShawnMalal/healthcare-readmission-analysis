@@ -1,3 +1,4 @@
+-- Inserted data for each patient's diagnoses
 INSERT INTO diagnoses (admission_id, diagnosis_1, diagnosis_2, diagnosis_3)
 SELECT
     a.admission_id,
