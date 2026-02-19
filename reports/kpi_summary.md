@@ -8,7 +8,7 @@
 
 ## KPI 3 - Readmission by Age Group 
 
-Age, rate 
+### Age, rate 
 \[0-10\)	0.018633540372670808
 \[10-20\)	0.05788712011577424
 \[20-30\)	0.1424260712130356
@@ -22,7 +22,7 @@ Age, rate
 
 ## KPI 4 - Readmission by Prior Admissions
 
-Total Prior Visits, rate
+### Total Prior Visits, rate
 0	0.08175109264168517
 1	0.11564114136703274
 2	0.14619359968197176
@@ -73,7 +73,7 @@ Total Prior Visits, rate
 
 ## KPI 5 - Readmission by Number of Diagnoses 
 
-Diagnoses, Rate 
+### Diagnoses, Rate 
 1	0.0593607305936073
 2	0.06060606060606061
 3	0.07372134038800705
