@@ -104,4 +104,27 @@ The focus was interpretability and actionable insight rather than purely predict
 
 ---
 
-## 📂 Project Structure
+## 🚀 Next Steps
+
+- Build an interactive executive dashboard  
+- Add deeper segmentation analysis  
+- Incorporate medication and lab result variables  
+- Evaluate cost impact of high-risk segments  
+
+---
+
+## 📈 Why This Project Matters
+
+Hospital readmissions are a major cost driver in healthcare systems. By identifying high-risk utilization and complexity patterns, healthcare providers can:
+
+- Improve discharge planning  
+- Allocate follow-up resources efficiently  
+- Reduce preventable readmissions  
+- Improve quality performance metrics  
+
+---
+
+## 👤 Author
+
+Shawn Malal  
+Data Analytics | SQL | Python | Business Intelligence
