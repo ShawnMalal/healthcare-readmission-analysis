@@ -8,23 +8,6 @@ The analysis focuses on utilization patterns, clinical complexity, and demograph
 
 ---
 
-## 📂 Project Structure
-
-healthcare-readmission-analysis/
-│
-├── data/
-│ └── readmission_dashboard_dataset.csv
-│
-├── notebooks/
-│ └── eda.ipynb
-│
-├── sql/
-│ └── feature_engineering.sql
-│
-├── .env (not tracked)
-└── README.md
----
-
 ## 🎯 Business Objective
 
 Hospital readmissions within 30 days are costly and often used as a healthcare quality metric.
@@ -120,23 +103,6 @@ The analysis followed a structured workflow:
 The focus was interpretability and actionable insight rather than purely predictive modeling.
 ---
 
-## 📂 Project Structure
-
-healthcare-readmission-analysis/
-│
-├── data/
-│ └── readmission_dashboard_dataset.csv
-│
-├── notebooks/
-│ └── eda.ipynb
-│
-├── sql/
-│ └── feature_engineering.sql
-│
-├── .env (not tracked)
-└── README.md
----
-
 ## 🚀 Next Steps
 
 - Build an interactive executive dashboard  
@@ -145,6 +111,32 @@ healthcare-readmission-analysis/
 - Evaluate cost impact of high-risk segments  
 
 ---
+
+## 📊 Dashboard
+
+An interactive Power BI dashboard was built to explore hospital readmission patterns and identify high-risk patient segments.
+
+### Key Metrics
+- Readmission Rate: 11.16%
+- Total Encounters: 101,766
+- Avg Length of Stay: 4.40 days
+- Avg Diagnoses: 7.42
+
+### Key Insights
+- Readmission risk increases significantly with prior visits (up to ~26% for 7+ visits)
+- Patients aged 20–30 show the highest readmission rates (~14%)
+- Higher number of diagnoses correlates with increased readmission risk
+- Most hospital stays fall within 2–5 days
+
+### Dashboard Features
+- Interactive slicers (Age, Prior Visits, Gender)
+- KPI summary cards
+- Readmission trends by age, visits, and diagnoses
+- Length of stay distribution
+- High-risk segment breakdown table
+
+### Preview
+![Dashboard Preview](dashboard/dashboard_preview.png)
 
 ## 📈 Why This Project Matters
 
